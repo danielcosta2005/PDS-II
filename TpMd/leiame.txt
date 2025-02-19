@@ -1,0 +1,25 @@
+1. Compilador GCC
+Descrição: O GCC é um compilador amplamente usado para linguagens como C e C++.
+Instalação:
+Windows: Use o MinGW ou Cygwin.
+Linux: Instale com sudo apt install gcc (Ubuntu/Debian) ou sudo dnf install gcc (Fedora).
+macOS: Instale via Xcode Command Line Tools com o comando:
+xcode-select --install
+
+2.Editor de Código
+O VS Code é uma das melhores opções para desenvolvimento em C.
+Instalação:
+Baixe do site oficial: VS Code.
+Adicione a extensão C/C++ da Microsoft para facilitar o desenvolvimento.
+
+3. Executando o Código
+Abra o terminal no diretório do arquivo .c.
+Compile o código usando:
+gcc fractal_generator.c -o fractal_generator
+Isso criará um executável chamado fractal_generator (ou fractal_generator.exe no Windows).
+
+Execute o programa:
+No Linux/macOS:
+./fractal_generator
+No Windows:
+fractal_generator.exe
